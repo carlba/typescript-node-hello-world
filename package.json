@@ -1,6 +1,6 @@
 {
-  "name": "typescript-template",
-  "description": "A short project description",
+  "name": "typescript-node-helloworld",
+  "description": "A Node.js hello-world web server",
   "version": "0.0.1",
   "private": false,
   "license": "UNLICENSED",
@@ -26,6 +26,7 @@
   },
   "devDependencies": {
     "@tsconfig/node20": "^20.1.4",
+    "@types/express": "^5.0.0",
     "@types/jest": "^29.5.14",
     "@types/node": "^22.10.7",
     "dotenv": "^16.4.7",
@@ -39,5 +40,8 @@
     "tsx": "^4.19.2",
     "typescript": "^5.7.3",
     "typescript-eslint": "^8.20.0"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
   }
 }
