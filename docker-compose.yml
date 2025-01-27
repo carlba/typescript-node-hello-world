@@ -1,0 +1,5 @@
+services:
+  app:
+    image: ghcr.io/carlba/typescript-node-hello-world:latest
+    ports:
+      - '80:3000'
